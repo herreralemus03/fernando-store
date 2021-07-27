@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
-@RequestMapping(value = "ordenes")
+@RequestMapping(value = "api/ordenes")
 public class OrdenesController {
 
     @Autowired

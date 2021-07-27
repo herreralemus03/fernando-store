@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Map;
 
 @RestController
-@RequestMapping(value = "productos")
+@RequestMapping(value = "api/productos")
 public class ProductosController {
 
     @Autowired
